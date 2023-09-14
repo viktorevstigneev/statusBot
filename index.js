@@ -70,7 +70,7 @@ const start = async () => {
     const chatId = msg.message.chat.id;
 
     if (data === "/again") {
-         setInterval(intervalFunc, 1500);
+         setInterval(intervalFunc, 2000);
     }
   });
 };
