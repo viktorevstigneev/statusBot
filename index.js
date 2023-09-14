@@ -43,6 +43,7 @@ const start = async () => {
     let status;
     let html;
 
+    console.log("it works")
     try {
       let response = await axios.get(
         "https://lift-api.vfsglobal.com/user/login",
@@ -69,7 +70,7 @@ const start = async () => {
     const chatId = msg.message.chat.id;
 
     if (data === "/again") {
-         setInterval(intervalFunc,1500000);
+         setInterval(intervalFunc,10000);
       //   intervalFunc();
       // 1500000
     }
