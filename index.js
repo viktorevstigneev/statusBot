@@ -65,11 +65,11 @@ const start = async () => {
     } catch (e) {
       // console.log(e.response.status);
       // console.log(e.response.statusText);
-      bot.sendMessage(
-        chatId2,
-        `statusCode: ${e.response.status}, стату можешь сам загуглить`
-      );
-      bot.sendMessage(chatId2, ` ${e.response.statusText}`);
+      // bot.sendMessage(
+      //   chatId2,
+      //   `statusCode: ${e.response.status}, стату можешь сам загуглить`
+      // );
+      // bot.sendMessage(chatId2, ` ${e.response.statusText}`);
     }
   }
   //
@@ -78,7 +78,7 @@ const start = async () => {
     const chatId = msg.message.chat.id;
 
     if (data === "/again") {
-         setInterval(intervalFunc, 12000000);
+         setInterval(intervalFunc, 120000);
     }
   });
 };
