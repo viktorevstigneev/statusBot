@@ -70,7 +70,7 @@ const start = async () => {
     const chatId = msg.message.chat.id;
 
     if (data === "/again") {
-         setInterval(intervalFunc,10000);
+         setInterval(intervalFunc, 1000000);
       //   intervalFunc();
       // 1500000
     }
