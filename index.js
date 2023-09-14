@@ -4,7 +4,7 @@ const { startOptions } = require("./options");
 // const UserModel = require('./models');
 const axios = require("axios");
 
-const token = "6438303345:AAE2Atv1XeqgoR3x9vwAfOdEdPv0oLpKdhE";
+const token = "6547194363:AAHKUCBZeqbhccIjTVKm_8ZpFZUrYrJH8MA";
 
 const bot = new TelegramApi(token, { polling: true });
 
