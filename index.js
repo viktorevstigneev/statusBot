@@ -71,8 +71,6 @@ const start = async () => {
 
     if (data === "/again") {
          setInterval(intervalFunc, 1000000);
-      //   intervalFunc();
-      // 1500000
     }
   });
 };
