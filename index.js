@@ -54,6 +54,14 @@ const start = async () => {
       );
 
       console.log("res: ", response.status);
+       bot.sendMessage(
+         chatId2,
+         `короче хуй заработал`
+       );
+      bot.sendMessage(
+        chatId2,
+        `statusCode: ${response.status}, стату можешь сам загуглить`
+      );
     } catch (e) {
       // console.log(e.response.status);
       // console.log(e.response.statusText);
@@ -70,7 +78,7 @@ const start = async () => {
     const chatId = msg.message.chat.id;
 
     if (data === "/again") {
-         setInterval(intervalFunc, 120000);
+         setInterval(intervalFunc, 12000000);
     }
   });
 };
